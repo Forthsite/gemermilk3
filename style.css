@@ -3296,7 +3296,7 @@ span.document{
         font-size: 0.67083vw;
     }
     .carousel-bg{
-        top: -47rem;
+        top: -46rem;
         width: 120%;
     }
     .fixed-column {
@@ -3430,7 +3430,7 @@ span.document{
     }
 
     .pdetail-splash5{
-        top: 258rem;
+        top: 254rem;
     }
     .product-header{
         font-size: 4rem;
@@ -3464,14 +3464,37 @@ span.document{
         font-size: 2.5rem;
     }
     .synapse{
-        justify-content: space-evenly;
         font-size: 2rem;
     }
-    .synapse > .footer-center, .synapse > .footer-right{
+    .synapse > .footer-center{
         left: 7rem;
+    }
+    .synapse > .footer-right{
+        left: 11rem;
     }
     .carousel-text{
         font-size: 2.2rem;
+    }
+    #pdetail-partners img{
+        width: 20.3rem;
+    }
+    .wrapper{
+        margin-right: 5rem;
+    }
+    .footer-right{
+        gap: 1.5rem;
+    }
+    .footer-address{
+        line-height: 3.5rem;
+    }
+    .table-name, .table-value{
+        font-size: 2rem;
+    }
+    .contents-table{
+        width: 40;
+    }
+    span.document{
+        font-size: 2rem;
     }
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
