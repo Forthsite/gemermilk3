@@ -548,7 +548,7 @@ section:not(:first-child){
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    left: 10rem
+    left: 12rem
 }
 
 /* Hide the scrollbar for WebKit-based browsers (Chrome, Safari, etc.) */
@@ -1474,6 +1474,7 @@ span.document{
                 justify-content: space-between;
         padding-left: 0;
         height: 10vh;
+        min-height: 100px;
     }
     .logo{
         display: -webkit-box;
@@ -1483,7 +1484,6 @@ span.document{
             -ms-flex-pack: center;
                 justify-content: center;
         margin: 0 0;
-        max-height: 9vh;
     }
     .logo > img{
         width: 75%;
@@ -3419,7 +3419,7 @@ span.document{
         z-index: 100;
     }
     .in-depth-bottom{
-        gap: 10rem;
+        gap: 5rem;
         margin-top: 10rem;
     }
     .products-column:first-child{
@@ -3467,7 +3467,7 @@ span.document{
         font-size: 2rem;
     }
     .synapse > .footer-center{
-        left: 7rem;
+        left: 10rem;
     }
     .synapse > .footer-right{
         left: 11rem;
@@ -3491,7 +3491,7 @@ span.document{
         font-size: 2rem;
     }
     .contents-table{
-        width: 40;
+        width: 39rem;
     }
     span.document{
         font-size: 2rem;
